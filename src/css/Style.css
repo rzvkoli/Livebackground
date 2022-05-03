@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #f9ac40 0% , #fd9400 60% , #d41a59 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 8s linear infinite alternate;
+}
+
+@keyframes movingGradient{
+from {background-position: 0 0;}
+to {background-position: 100% 100%;}
+}
